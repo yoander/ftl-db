@@ -2,6 +2,10 @@
 
 namespace Ftl\DB;
 
+/**
+ * This class describes the connection properties, is posible to have more than
+ * one driver configuration and more than one connection per driver.
+ */
 class ConnectionProperties
 {
     private static function _properties($connections, $connectionName = null)
